@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components';
-import { motion } from 'framer-motion';
+import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
 export const Illustration = styled(motion.div)`
   height: 100vw;
@@ -14,7 +14,6 @@ export const Illustration = styled(motion.div)`
   }
 
   @media (min-width: 1025px) {
-    //max-height: 754px; MOD
     max-height: 650px;
   }
 `;
@@ -31,7 +30,7 @@ export const Image = styled.div`
 
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 50%;
     left: 50%;
     width: 110px;
@@ -65,7 +64,7 @@ export const Image = styled.div`
             background-image: url(${props.geo});
           }
         `
-      : ''};
+      : ""};
 
   ${(props) =>
     props.isChanging
