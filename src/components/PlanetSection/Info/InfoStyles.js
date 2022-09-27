@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { motion } from 'framer-motion';
+import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const Info = styled(motion.ul)`
   display: flex;
@@ -17,7 +17,6 @@ export const Info = styled(motion.ul)`
     padding: 0 0 36px 0;
     max-width: unset;
     margin: 0;
-    //margin-top: 50px;
   }
 
   @media (min-width: 1025px) {
